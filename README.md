@@ -1,6 +1,11 @@
 # Weather API Project
 
-This project is a Weather API wrapper service that fetches weather data from a third-party API, caches it, and serves it through its own endpoints. It's designed to showcase best practices in backend development, including authentication, caching, environment variable management, and API documentation.
+This project serves as a comprehensive and practical implementation of the **["Weather API Project Idea" exercise from roadmap.sh](https://roadmap.sh/projects/weather-api-wrapper-service)**. It is designed to be a robust wrapper service that not only fulfills the requirements of the challenge but also demonstrates best practices in modern backend development.
+
+As a solution to the exercise, this service fetches data from a reliable external source, Visual Crossing, and serves it through its own dedicated endpoints. To meet the performance and efficiency goals of the challenge, it features a **multi-layer caching system**. This system uses **Redis** for high-speed access and **MongoDB** to store data for longer periods, effectively minimizing calls to the third-party API.
+
+Furthermore, the project successfully implements the exercise's authentication requirements, featuring a complete **JWT-based authentication** and **Role-Based Access Control (RBAC)** system with distinct `user` and `admin` roles. Developed using a modern tech stack including **Node.js** and **Express.js**, and complete with **Swagger UI** for documentation, this project stands as a thorough and functional solution to the proposed challenge.
+
 
 ## ✨ Features
 
